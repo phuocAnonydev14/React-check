@@ -1,0 +1,32 @@
+.iconHeart {
+  font-size: larger;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 50%;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgb(134, 133, 133);
+    transition: all 0.25s ease;
+  }
+}
+.redHeart {
+  background-color: red !important;
+  animation: hearShake 0.5s linear;
+}
+
+@keyframes hearShake {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(120deg);
+  }
+  100% {
+    transform: translate(-50deg);
+  }
+}
+.alertHeart {
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59) !important;
+  text-align: center;
+}

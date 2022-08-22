@@ -1,0 +1,253 @@
+.home {
+  .product-firstLine {
+    &-product {
+      margin-top: 30px;
+      height: 300px;
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      // padding: 5px 20px;
+
+      &:hover {
+        transform: scale(0.91);
+        box-shadow: 0 2px 5px rgb(134, 133, 133);
+        transition: all 0.25s linear;
+      }
+
+      .iconHeart {
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        opacity: 0;
+      }
+      &:hover .iconHeart {
+        opacity: 1;
+        top: 8px;
+        transition: all 0.25s linear;
+      }
+    }
+    &-price {
+      color: #058518;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 5px;
+      border-radius: 20px;
+      background-color: #fff;
+      position: absolute;
+      bottom: -3px;
+      left: 15px;
+      box-shadow: 0 2px 5px rgb(134, 133, 133);
+    }
+  }
+}
+
+.product-secondLine {
+  margin-top: 50px;
+  margin-inline: auto;
+  &-title {
+    margin-bottom: -30px;
+    font-family: "Times New Roman", Times, serif;
+    h3 {
+      color: #595959;
+      span {
+        color: black;
+      }
+    }
+  }
+
+  &-product {
+    padding: unset !important;
+    width: 18%;
+    height: 200px !important;
+    margin-right: 21px;
+    border-radius: 5px !important;
+
+    &:hover {
+      transform: unset;
+    }
+  }
+  &-price {
+    left: 5px !important;
+    color: black !important;
+  }
+}
+
+.product-thirdLine {
+  margin-top: 100px;
+  display: flex;
+  align-items: flex-start;
+
+  &-title {
+    font-family: "Times New Roman", Times, serif;
+
+    width: 25% !important;
+    margin-right: 30px !important;
+  }
+  .product-thirdLine-list {
+    width: 75% !important;
+
+    &-product {
+      margin-top: unset;
+      padding: unset !important;
+      height: max-content;
+      box-shadow: 0 1px 6px 0 rgb(34 34 34 / 15%);
+      margin-bottom: 20px;
+
+      &:hover {
+        transform: unset;
+      }
+
+      img {
+        height: 170px;
+      }
+
+      &-title {
+        display: inline-block;
+        margin-top: 15px;
+        padding-inline: 10px;
+        font-family: "Times New Roman", Times, serif;
+
+        p {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2; /* number of lines to show */
+          -webkit-box-orient: vertical;
+          font-size: 16px;
+          font-weight: 500;
+          margin-bottom: 5px;
+        }
+      }
+
+      .iconHeart {
+        right: 5px;
+        top: 8px;
+        opacity: 1;
+      }
+      &:hover .iconHeart {
+        top: 8px;
+      }
+    }
+  }
+}
+
+.product-fourthLine-list {
+  .product-thirdLine-list-product-title {
+    p {
+      padding-right: 10px;
+      -webkit-line-clamp: 1 !important;
+    }
+  }
+  .iconHeart {
+    right: 7px !important;
+    top: 200px !important;
+    // bottom: 5px !important;
+    opacity: 1;
+  }
+}
+
+.selection {
+  .product-secondLine-product {
+    height: max-content !important;
+    border: 1px solid rgba(128, 128, 128, 0.441);
+    border-radius: 20px !important;
+    .selection-content {
+      text-align: center;
+      margin-block: 20px;
+    }
+  }
+}
+
+.definition {
+  background: #fdebd2;
+
+  &-content {
+    // height: 300px;
+    text-align: center;
+    padding-block: 30px;
+  }
+}
+
+.smHeight {
+  height: 200px !important;
+}
+
+.background-cate {
+  background-color: #eeeef0;
+  padding-block: 40px;
+  padding-inline: 50px;
+  margin-inline: -30px !important;
+}
+
+.background-banner {
+  width: 100%;
+  height: 300px;
+  background-image: url("https://denisechandler.com/wp-content/themes/portfolio_oct2021/images/store_cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and(max-width:1045px) {
+  .product-secondLine-product {
+    width: 30%;
+  }
+}
+
+@media screen and(max-width:768px) {
+  .product-thirdLine {
+    flex-wrap: wrap;
+
+    &-title {
+      width: 100% !important;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .product-thirdLine-list {
+      width: 100% !important;
+
+      &-product {
+        margin: 20px auto;
+
+        &:hover {
+          transform: unset;
+        }
+      }
+    }
+  }
+  .product-secondLine-product {
+    width: 27%;
+  }
+}
+@media screen and(max-width:576px) {
+  .product-secondLine-product {
+    width: 90%;
+  }
+}
+
+.custom-owl {
+  height: 400px;
+  position: relative;
+  padding: 5px;
+  border-radius: 100px;
+  border: 3px double green;
+  border-bottom: 3px solid rgb(0, 255, 170);
+  border-right: 5px solid rgb(195, 0, 255);
+  overflow: hidden;
+  border-bottom-right-radius: 5px;
+  // border-top-right-radius: 5px;
+  background-color: cornsilk;
+
+  img {
+    border-radius: inherit;
+    height: 100%;
+    object-fit: cover;
+  }
+}

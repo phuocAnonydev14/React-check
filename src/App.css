@@ -1,38 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,800;0,900;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@font-face {
+  font-family: "GraphikBlack";
+  src: url("./Graphik-Font-Family/GraphikMedium.otf");
+}
+@font-face {
+  font-family: "GraphikLight";
+  src: url("./Graphik-Font-Family/GraphikLight.otf");
+}
+
+@font-face {
+  font-family: "GraphikMedium";
+  src: url("./Graphik-Font-Family/GraphikMedium.otf");
+}
+@font-face {
+  font-family: "Uchen";
+  src: url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Mukta";
+  src: url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#root {
+  font-family: "Roboto", sans-serif;
+}
+
 .App {
-  text-align: center;
+  position: relative;
+}
+.login {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background-color: #3b3a3a87;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.toBottom {
+  margin-bottom: 200px;
+  transform: translateY(190px);
+  transition: 0.25s linear;
+}
+.toBottom1 {
+  margin-bottom: 350px;
+  transform: translateY(330px);
+  transition: 0.25s linear;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link {
+  text-decoration: unset;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.link:hover {
+  color: unset;
 }
 
-.App-link {
-  color: #61dafb;
+.left {
+  position: absolute;
+  top: 30%;
+  left: 20px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  background-color: rgba(197, 195, 195, 0.626);
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left:hover,
+.right:hover {
+  background-color: rgba(144, 144, 124, 0.89);
+  transform: scale(1.1);
+  transition: all 0.25s;
+}
+
+.right {
+  font-size: 25px;
+
+  position: absolute;
+  top: 30%;
+  right: 20px;
+  border-radius: 50%;
+  background-color: rgba(197, 195, 195, 0.626);
+
+  padding: 10px 15px;
+}
+
+.progress-bar {
+  background: linear-gradient(
+    to right bottom,
+    #c7395f,
+    #ded4e8,
+    #e8ba40
+  ) !important;
+}
+
+.tippy-box-green {
+  background-color: #e1e1e1 !important;
+  color: green !important;
+  font-weight: bold;
+}
+.tippy-box-blue {
+  background-color: #e1e1e1 !important;
+  color: blue !important;
+  font-weight: bold;
+}
+.tippy-box-red {
+  background-color: #e1e1e1 !important;
+  color: red !important;
+  font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: green;
+  font-weight: 500;
+  /* text-align: center; */
 }

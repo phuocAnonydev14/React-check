@@ -1,0 +1,117 @@
+{
+  "categories": [
+    {
+      "name": "PillowsFever",
+      "id": 1,
+      "image": "https://i.etsystatic.com/isla/966bcf/50254425/isla_280x280.50254425_gflh27sd.jpg?version=0"
+    },
+    {
+      "name": "sewing and needlecraft",
+      "id": 2,
+      "image": "https://i.etsystatic.com/5172000/r/il/863a08/553540850/il_300x300.553540850_cud2.jpg"
+    },
+    {
+      "name": " Greeting Cards",
+      "id": 3,
+      "image": "https://i.etsystatic.com/5159910/r/il/9e176f/1492453451/il_300x300.1492453451_lfxh.jpg"
+    },
+    {
+      "name": "Furniture",
+      "id": 4,
+      "image": "https://i.etsystatic.com/16440268/c/1200/1200/0/0/il/9ff614/3227088565/il_300x300.3227088565_2bux.jpg"
+    },
+    {
+      "name": "Pet Toys",
+      "id": 5,
+      "image": "https://i.etsystatic.com/5255767/c/465/465/65/172/il/643531/2128050081/il_300x300.2128050081_ot3p.jpg"
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "email": "hophuoc14032003@gmail.com",
+      "password": "deptrai123",
+      "name": "Hồ Phước"
+    },
+    {
+      "email": "trinhphamdoantrang17072003@gmai.com",
+      "password": "deptrai123",
+      "name": "trang",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Rug Design Pillow Covers|Terracotta Southwestern Cushion Case|Decorative Aztec Print Ethnic Home Decor|Farmhouse Style Geometric Pillow Case",
+      "price": 867229,
+      "image": "https://i.etsystatic.com/20981097/r/il/649377/2657175330/il_1588xN.2657175330_jki0.jpg",
+      "sales": 19478,
+      "categories_id": 1,
+      "desc": "Our custom designed Red/Blue/Beige Native American Accent Pillow from the Southwest Collection adds instant style and character to your interiors. Perfect for living room, family room, bed room and office settings. Makes a wonderful housewarming, birthday and holiday gifts."
+    },
+    {
+      "id": 2,
+      "name": "Aztec Sothwestern Terracotta Ethnic Decorative Design Print Pillow Covers Cushion Case Home Decor Geometric Pillow Case",
+      "price": 592048,
+      "image": "https://i.etsystatic.com/19907415/r/il/edadf1/3970334444/il_1588xN.3970334444_eu1c.jpg",
+      "sales": 19478,
+      "categories_id": 1,
+      "desc": "Our custom designed Red/Blue/Beige Native American Accent Pillow from the Southwest Collection adds instant style and character to your interiors. Perfect for living room, family room, bed room and office settings. Makes a wonderful housewarming, birthday and holiday gifts."
+    },
+    {
+      "id": 3,
+      "name": "Throw Pillow Red/Blue/Beige Native American Accent Pillow Southwest Collection Home Decor Interior Design 4 Sizes - 14",
+      "price": 606024,
+      "image": "https://i.etsystatic.com/29986835/r/il/bc3ade/3505851600/il_1588xN.3505851600_hefk.jpg",
+      "sales": 19478,
+      "categories_id": 1,
+      "desc": "Our custom designed Red/Blue/Beige Native American Accent Pillow from the Southwest Collection adds instant style and character to your interiors. Perfect for living room, family room, bed room and office settings. Makes a wonderful housewarming, birthday and holiday gifts."
+    },
+    {
+      "id": 4,
+      "name": "Pillow Cover - FLOW - Bohemian- Throw Pillow - Home Decor - Decorative Pillow Cover",
+      "price": 753296,
+      "image": "https://i.etsystatic.com/18374615/r/il/352980/2585869231/il_1588xN.2585869231_1w8q.jpg",
+      "sales": 19478,
+      "categories_id": 1,
+      "desc": "You know what the best part about working with textiles is?Finding ways to use your scrap material!These upcyled pillow covers are made from leftover scraps that can’t be made into blankets, reusable bags or other goods listed on my page!"
+    },
+    {
+      "id": 5,
+      "name": "Pillow Cover - FLOW - Bohemian- Throw Pillow - Home Decor - Decorative Pillow Cover",
+      "price": 753296,
+      "image": "https://i.etsystatic.com/18374615/r/il/352980/2585869231/il_1588xN.2585869231_1w8q.jpg",
+      "sales": 19478,
+      "categories_id": 2,
+      "desc": "You know what the best part about working with textiles is?Finding ways to use your scrap material!These upcyled pillow covers are made from leftover scraps that can’t be made into blankets, reusable bags or other goods listed on my page!"
+    },
+    {
+      "id": 6,
+      "name": "Pillow Cover - FLOW - Bohemian- Throw Pillow - Home Decor - Decorative Pillow Cover",
+      "price": 753296,
+      "image": "https://i.etsystatic.com/18374615/r/il/352980/2585869231/il_1588xN.2585869231_1w8q.jpg",
+      "sales": 19478,
+      "categories_id": 2,
+      "desc": "You know what the best part about working with textiles is?Finding ways to use your scrap material!These upcyled pillow covers are made from leftover scraps that can’t be made into blankets, reusable bags or other goods listed on my page!"
+    },
+    {
+      "id": 7,
+      "name": "Pillow Cover - FLOW - Bohemian- Throw Pillow - Home Decor - Decorative Pillow Cover",
+      "price": 753296,
+      "image": "https://i.etsystatic.com/18374615/r/il/352980/2585869231/il_1588xN.2585869231_1w8q.jpg",
+      "sales": 19478,
+      "categories_id": 2,
+      "desc": "You know what the best part about working with textiles is?Finding ways to use your scrap material!These upcyled pillow covers are made from leftover scraps that can’t be made into blankets, reusable bags or other goods listed on my page!"
+    },
+    {
+      "id": 8,
+      "name": "Pillow Cover - FLOW - Bohemian- Throw Pillow - Home Decor - Decorative Pillow Cover",
+      "price": 753296,
+      "image": "https://i.etsystatic.com/18374615/r/il/352980/2585869231/il_1588xN.2585869231_1w8q.jpg",
+      "sales": 19478,
+      "categories_id": 2,
+      "desc": "You know what the best part about working with textiles is?Finding ways to use your scrap material!These upcyled pillow covers are made from leftover scraps that can’t be made into blankets, reusable bags or other goods listed on my page!"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+.footer {
+  &-title {
+    height: 50px;
+    background-color: #4d6bc6;
+    text-align: center;
+    margin-top: -2px;
+
+    span {
+      margin-left: 5px;
+      text-decoration: underline dashed;
+      color: white;
+    }
+  }
+
+  &-main {
+    background-color: #2f466c;
+
+    ul {
+      margin-top: 20px;
+      color: white;
+      list-style: none;
+      padding: unset;
+
+      li {
+        font-size: 13px;
+        margin-bottom: 10px;
+
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+
+      p {
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+    button {
+      padding: 5px 10px;
+      border: 2px solid white;
+      background-color: transparent;
+      color: white;
+      border-radius: 30px;
+    }
+  }
+}

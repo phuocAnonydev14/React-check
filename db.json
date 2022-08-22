@@ -1,0 +1,330 @@
+{
+  "categories": [
+    {
+      "name": "Clothing & Shoes",
+      "id": 1,
+      "image": "https://i.etsystatic.com/10902794/r/il/dc0e2d/1082581100/il_300x300.1082581100_7msp.jpg"
+    },
+    {
+      "name": "Home & Living",
+      "id": 2,
+      "image": "https://i.etsystatic.com/26099910/r/il/ed89c5/3674643816/il_300x300.3674643816_7hho.jpg"
+    },
+    {
+      "name": "Toys & Entertainment",
+      "id": 3,
+      "image": "https://i.etsystatic.com/11636031/c/2955/2955/0/1/il/776f1b/3382496932/il_300x300.3382496932_obki.jpg"
+    },
+    {
+      "name": " Art & Collectibles",
+      "id": 4,
+      "image": "https://i.etsystatic.com/5159910/r/il/9e176f/1492453451/il_300x300.1492453451_lfxh.jpg"
+    },
+    {
+      "name": "Vintage",
+      "id": 5,
+      "image": "https://i.etsystatic.com/5522279/r/il/137229/460123827/il_300x300.460123827_o0a8.jpg"
+    },
+    {
+      "name": "Jewelry & Accessories",
+      "id": 6,
+      "image": "https://i.etsystatic.com/32662273/r/il/06ec5c/4066380139/il_680x540.4066380139_jsyg.jpg"
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "email": "hophuoc14032003@gmail.com",
+      "password": "deptrai123",
+      "name": "Hồ Phước"
+    },
+
+    {
+      "email": "trinhphamdoantrang17072003@gmai.com",
+      "password": "deptrai123",
+      "name": "trnag kue",
+      "id": 5
+    },
+    {
+      "email": "dkcf22222@gmail.com",
+      "password": "deptrai123",
+      "name": "deptrai",
+      "id": 6
+    },
+    {
+      "email": "asdasd@dfadsasd.com",
+      "password": "deptrai123",
+      "name": "phuoc kute",
+      "id": 7
+    },
+    {
+      "email": "hophuoc14032003@gmail.com",
+      "password": "deptrai123",
+      "name": "phuoc dep zai",
+      "id": 8
+    },
+    {
+      "email": "asdasd@dfadsasd.com",
+      "password": "deptrai123",
+      "name": "dasda",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Original Acrylic Painting On Canvas Texture Wall Art Knife Abstract Art living room wall canvas abstract art canvas Personalized lovers Gift",
+      "image": "https://i.etsystatic.com/6624893/r/il/c22539/3976761548/il_1588xN.3976761548_b7qc.jpg",
+      "price": 7228915,
+      "sales": 6114578,
+      "categories_id": 1,
+      "desc": "Original Acrylic Painting On Canvas Texture Wall Art Personalized Gift Knife Abstract Art living room wall canvas abstract art canvas. Impasto Painting palette knife art rainbow color artWelcome to my shop.✅COPYRIGHT: All paintings copyrighted ..",
+      "free_ship": true,
+      "space": "Hai Phong",
+      "etsy_seller": true,
+      "max": 12
+    },
+    {
+      "id": 2,
+      "name": "Waldorf Toys, Kids Furniture, Toddler Toy, Montessori Baby Playroom, Christmas Gift for Toddler, Wooden Bow",
+      "image": "https://i.etsystatic.com/25933728/r/il/c82960/3818917913/il_1588xN.3818917913_fm98.jpg",
+      "price": 3301205,
+      "sales": 2310843,
+      "categories_id": 1,
+      "desc": "Waldorf Toys, Kids Furniture, Toddler Toy, Montessori Baby Playroom, Christmas Gift for Toddler, Wooden Bow with Cotton CushionYou can get Climbing Arch and Rocker, Ramp and Rocker Pillow SeparatelyWorld Wide Free and Express Shipping on all orders...",
+      "free_ship": false,
+      "space": "Ha Noi",
+      "etsy_seller": true,
+      "max": 13
+    },
+    {
+      "id": 3,
+      "name": "Elegant White Sparkly Flower Wedding Instagram Story Filter",
+      "image": "https://i.etsystatic.com/7064325/r/il/2b9205/4018304606/il_1588xN.4018304606_28r6.jpg",
+      "price": 3301205,
+      "sales": 2310843,
+      "categories_id": 1,
+      "desc": "Waldorf Toys, Kids Furniture, Toddler Toy, Montessori Baby Playroom, Christmas Gift for Toddler, Wooden Bow with Cotton CushionYou can get Climbing Arch and Rocker, Ramp and Rocker Pillow SeparatelyWorld Wide Free and Express Shipping on all orders...",
+      "free_ship": false,
+      "space": "Ha Noi",
+      "etsy_seller": true,
+      "max": 14
+    },
+    {
+      "id": 4,
+      "name": "Black studded leather tote bag, zippered tote bag for everyday, XL gothic casual style crossbody bag adjustable strap, Stud bag, studded bag",
+      "image": "https://i.etsystatic.com/23215066/r/il/0fc3e6/4018379148/il_1588xN.4018379148_94sd.jpg",
+      "price": 11206897,
+      "categories_id": 1,
+      "desc": "Ideal for an urban biker look, a super versatile look that will make you feel different, without leaving aside the sophistication of a great leather bag. It's bold and at the same time sober, it's cool but also elegant. You can wear it for a casual look or for a formal work look.",
+      "free_ship": true,
+      "space": "Ha Noi",
+      "etsy_seller": true,
+      "max": 15
+    },
+    {
+      "id": 5,
+      "name": "Brazilian Jiujitsu Short Sleeve Fitted T-shirt - Martial Arts Bjj Mens Shirt",
+      "image": "https://i.etsystatic.com/35509908/r/il/feef39/3990526746/il_1588xN.3990526746_aeiw.jpg",
+      "price": 677966,
+      "sales": 610966,
+      "categories_id": 1,
+      "desc": "Mens Brazilian Jiujitsu shirt - This t-shirt is comfortable, soft, lightweight, and form-fitting. It's an ideal staple piece for any wardrobe!• 100% combed ring-spun cotton.",
+      "free_ship": true,
+      "space": "Ha Noi",
+      "etsy_seller": true,
+      "max": 16
+    },
+    {
+      "id": 6,
+      "name": "Fun New Parent Decision Flip Coin, 37mm Wood Disc, a Fun Handmade Coin for New Parent Decision Making, New Babies, Baby Shower Gift",
+      "image": "https://i.etsystatic.com/8814376/r/il/fad5ec/3219546791/il_1588xN.3219546791_d4bd.jpg",
+      "price": 170977,
+      "categories_id": 2,
+      "desc": "Being new parents is a beautiful time but also a really tough one, especially when it comes to who's going to change the next baby's nappy or get up in the middle of the night. Well we have just the thing to take all the stress out of the situation - The Oh So Cherished fun original decision coin perfect for new parents! All they need to do is flip the wooden coin for their fate!",
+      "free_ship": true,
+      "space": "Hai Phong",
+      "etsy_seller": false,
+      "max": 17
+    },
+    {
+      "id": 7,
+      "name": "Custom Neon Sign | Neon Sign | Wedding Neon Sign | Led Neon Sign | Name Neon Sign | Neon Signs | LED Sign | Wall Decor | Home Decor",
+      "image": "https://i.etsystatic.com/27519419/r/il/1b2443/3522827430/il_1588xN.3522827430_lo4f.jpg",
+      "price": 1084337,
+      "categories_id": 2,
+      "desc": "The price displayed i.e. 45$ is only a deposit price since each and every sign's cost depends upon the options our customer's choose. Feel free to send us your neon sign details (text, font and color) via Etsy message so we can send you a visual of your sign before you make a purchase. We'll communicate the size, price and delivery details to you for approval before you place your order.!",
+      "free_ship": true,
+      "space": "Hai Phong",
+      "etsy_seller": true,
+      "max": 18
+    },
+    {
+      "id": 8,
+      "name": "Reusable 2-in-1 First & Last Day of School Sign, first day of school sign, back to school, last day of school sign, first day sign",
+      "image": "https://i.etsystatic.com/10428541/r/il/8b4356/1934766276/il_1588xN.1934766276_7www.jpg",
+      "price": 963373,
+      "sales": 866988,
+      "categories_id": 2,
+      "desc": "The price displayed i.e. 45$ is only a deposit price since each and every sign's cost depends upon the options our customer's choose. Feel free to send us your neon sign details (text, font and color) via Etsy message so we can send you a visual of your sign before you make a purchase. We'll communicate the size, price and delivery details to you for approval before you place your order.!",
+      "free_ship": true,
+      "space": "Ho Chi Minh",
+      "etsy_seller": true,
+      "max": 19
+    },
+    {
+      "id": 9,
+      "name": "Leather toilet paper holder, wall mounted wooden toilet roll holder, leather and wood bathroom decor",
+      "image": "https://i.etsystatic.com/34868453/r/il/025cf8/3784229437/il_1588xN.3784229437_cekn.jpg",
+      "price": 1371084,
+      "sales": 850988,
+      "categories_id": 2,
+      "desc": "All orders includes All-Purpose wall anchors and screw. Please use 6 mm drill bit. Installation is shown at listing photos. All-Purpose Wall Anchors are for use in drywall, concrete, brick, tile, plaster, stucco, wood & more where the screw opens the anchor and locks its thread into the anchor's teeth to resist pull-out and vibration..!",
+      "free_ship": true,
+      "space": "Ho Chi Minh",
+      "etsy_seller": true,
+      "max": 20
+    },
+    {
+      "id": 10,
+      "name": "Custom Birthday Gift For Him, Engagement Gift For Men, Unique Wedding Gift For Couple, Birthday Gifts For Boyfriend, Gifts For Husband",
+      "image": "https://i.etsystatic.com/11871467/r/il/0d8c7d/1299973028/il_1588xN.1299973028_gv5i.jpg",
+      "price": 7518072,
+      "sales": 6766265,
+      "categories_id": 2,
+      "desc": "ShadoArt is a minimalist handmade illustration of your selected photo, laser cut in metal sheet (tin). The result is a unique and delicate transformation of your special moment.",
+      "free_ship": true,
+      "space": "Ho Chi Minh",
+      "etsy_seller": true,
+      "max": 21
+    },
+    {
+      "id": 11,
+      "name": "10 LIGHT & AIRY Lightroom Mobile and Desktop Presets | Pure White bright clean tones crisp",
+      "image": "https://i.etsystatic.com/23038239/r/il/4e1b3c/2631024181/il_1588xN.2631024181_i1s4.jpg",
+      "price": 80049,
+      "categories_id": 3,
+      "desc": "All presets will give your photos and images modern, clean and bright look. This package is perfect for bloggers and profesional photographers as well as for casual photographers because no additional tweaks are needed. White Lifestyle can change your photos with one click right on your phone. White Lifestyle Lightroom Presets have been created to brighten your photos with a light, white and clean look.",
+      "free_ship": true,
+      "space": "Ho Chi Minh",
+      "etsy_seller": true,
+      "max": 21
+    },
+    {
+      "id": 12,
+      "name": "Template for Transforming Car Costume for Kids Halloween Costume Inspired by Bumblebee Transformer Costume",
+      "image": "https://i.etsystatic.com/8407598/r/il/192cef/3317395136/il_1588xN.3317395136_csop.jpg",
+      "price": 289157,
+      "sales": 110000,
+      "categories_id": 3,
+      "desc": "The costume is designed to fit children with a max height of about 4'. While this is not a hard limit, the real constraint is if the person can fit within the costume in car mode. Rough dimensions of the costume in Car Mode are L:31 W:1 H:13",
+      "free_ship": true,
+      "space": "Hai Phong",
+      "etsy_seller": true,
+      "max": 22
+    },
+    {
+      "id": 13,
+      "name": "Cotton Candy Dolls pdf Pattern - Instant Download",
+      "image": "https://i.etsystatic.com/5697063/r/il/f5ad79/529585996/il_1588xN.529585996_65tr.jpg",
+      "price": 204819,
+      "sales": 120222,
+      "categories_id": 3,
+      "desc": "Their hair, made from wool roving, has been needle felted onto their heads and I've included step-by-step photo's of the entire process, so it's as easy as pie:) You may also substitute the wool roving for a wool blend yarn if you'd prefer. These dolls are not really meant as toys and would be best for older children or doll collectors.",
+      "free_ship": false,
+      "space": "Hai Phong",
+      "etsy_seller": false,
+      "max": 22
+    },
+    {
+      "id": 14,
+      "name": "Papercraft cats PDF templates (couple), DIY Low Poly Papercraft: Make real 3D paper cats out of these 2 digital files. Gift for cat lovers!",
+      "image": "https://i.etsystatic.com/12815693/r/il/4c978a/1369185540/il_1588xN.1369185540_ngf4.jpg",
+      "price": 295567,
+      "categories_id": 3,
+      "desc": "Their hair, made from wool roving, has been needle felted onto their heads and I've included step-by-step photo's of the entire process, so it's as easy as pie:) You may also substitute the wool roving for a wool blend yarn if you'd prefer. These dolls are not really meant as toys and would be best for older children or doll collectors.",
+      "free_ship": false,
+      "space": "Hai Phong",
+      "etsy_seller": true,
+      "max": 23
+    },
+    {
+      "id": 15,
+      "name": "Wedding Guest Book rustic wood journal with leather hearts wooden guestbook bridal shower engagement anniversary",
+      "image": "https://i.etsystatic.com/5474176/r/il/df3f20/1437153962/il_1588xN.1437153962_3kyd.jpg",
+      "price": 1800000,
+      "sales": 800000,
+      "categories_id": 3,
+      "desc": "Rustic wood wedding guest book with two leather hearts. Book is made from rare wood what usually don't grow so large here in Latvia. It is thuja wood- kind of cedar. It smells very special. Wood is little painted and altered.",
+      "free_ship": true,
+      "space": "Ha Noi",
+      "etsy_seller": true,
+      "max": 23
+    },
+    {
+      "id": 16,
+      "name": "Custom Family Portrait | New Home Gift | Housewarming Gift | Mothers Day Gift | Family Gift | Gift for Mom | Family Poster Print",
+      "image": "https://i.etsystatic.com/23071367/r/il/60671a/3722451477/il_1588xN.3722451477_tp92.jpg",
+      "price": 397738,
+      "sales": 800000,
+      "categories_id": 4,
+      "desc": "GIFTS COMING FROM ❤ Family picture as a personal gift for your loved ones. Personalized gift idea for birthdays, Mother's Day, Father's Day, weddings, Christmas or simply as a thank you. I design unforgettable and unique gifts for you and your friends with a lot of heart..",
+      "free_ship": true,
+      "space": "Ha Noi",
+      "etsy_seller": true,
+      "max": 45
+    },
+    {
+      "id": 17,
+      "name": "Sazor Sketch Procreate Brushset for Ipad (21 digital brushes) including pencils, pens, and an eraser brush!",
+      "image": "https://i.etsystatic.com/24675633/r/il/14291f/3190258415/il_1588xN.3190258415_15dd.jpg",
+      "price": 184729,
+      "sales": 246305,
+      "categories_id": 4,
+      "desc": "Do you want to get traditional style drawings but you don't find easy and fun to use brushes?This brush set is the answer! It offers a variety of brush types from realistic brushes to morefun and useful ones (check out the new light and dark lineart brushes!)21 BRUSHES INCLUDED IN THIS SET",
+      "free_ship": true,
+      "space": "Hai Phong",
+      "etsy_seller": false,
+      "max": 30
+    },
+    {
+      "id": 18,
+      "name": "door knob Vintage DoorKnob Metal door knob Retro door knob Shabby chic decor Door hardware Antique door knob soviet door handles",
+      "image": "https://i.etsystatic.com/13507922/r/il/e7e13b/2373310755/il_1588xN.2373310755_bx0k.jpg",
+      "price": 542169,
+      "sales": 461123,
+      "categories_id": 5,
+      "desc": "door knob Vintage DoorKnob Metal door knob Retro door knob Shabby chic decor Door hardware Antique door knob soviet door handlesSet of 2 door knob Please refer to photos for details of condition.Made in USSR 1970's",
+      "free_ship": true,
+      "space": "Ho Chi Minh",
+      "etsy_seller": true,
+      "max": 48
+    },
+    {
+      "id": 19,
+      "name": "Vintage Beaux Chain, Fancy Brass Chain, 11mm, 3FT",
+      "image": "https://i.etsystatic.com/6983211/r/il/54c8a1/946952172/il_1588xN.946952172_5cg5.jpg",
+      "price": 542169,
+      "sales": 461123,
+      "categories_id": 6,
+      "desc": "door knob Vintage DoorKnob Metal door knob Retro door knob Shabby chic decor Door hardware Antique door knob soviet door handlesSet of 2 door knob Please refer to photos for details of condition.Made in USSR 1970's",
+      "free_ship": true,
+      "space": "Ho Chi Minh",
+      "etsy_seller": true,
+      "max": 48
+    },
+    {
+      "id": 20,
+      "name": "Custom Multiple Birthstone Necklace For Women • Family Necklace for Mom • Mother and Child Necklace • Personalized Summer Jewelry -BSN-MC",
+      "image": "https://i.etsystatic.com/10158348/r/il/d36c5e/4043923701/il_1588xN.4043923701_qr6f.jpg",
+      "price": 400000,
+      "sales": 300000,
+      "categories_id": 6,
+      "desc": "By popular demand, we are happy to introduce our new birthstone necklace. Customize this necklace with birthstones to represent family and loved ones. Create a one-of-a-kind and sentimental jewelry item. This necklace makes the perfect gift for moms, grandmas, bridesmaids, or any special woman in your life.",
+      "free_ship": false,
+      "space": "Ho Chi Minh",
+      "etsy_seller": true,
+      "max": 48
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+.greeting {
+  padding-top: 20px;
+  font-size: 35px;
+  color: #222222;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170px;
+    background: #ddebe3;
+    z-index: -5;
+  }
+}
+
+.userGreeting {
+  z-index: -1;
+  padding-top: 20px;
+  font-size: 35px;
+  color: #222222;
+  font-weight: 200 !important;
+  text-align: center;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170px;
+    background: #fdebd2;
+    z-index: -5;
+  }
+  span {
+    font-family: "Uchen";
+    display: inline-block;
+    text-decoration: underline;
+    font-weight: 400;
+
+    &:hover {
+      color: gray;
+    }
+  }
+}
+
+.listProducts {
+  margin-top: 40px !important;
+  display: none;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 5px;
+  &:hover::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(to right bottom, green, gray, red);
+    animation: productAnimate 1.5s linear infinite;
+  }
+
+  @keyframes productAnimate {
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0%;
+      background: linear-gradient(to right bottom, red, gray, green);
+    }
+  }
+}
+.productImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 10px;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &:hover {
+    transform: scale(1.08);
+    box-shadow: 0 2px 5px rgb(134, 133, 133);
+    transition: all 0.125s linear;
+  }
+}
+@font-face {
+  font-family: "MuktaBold";
+  src: url("https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap");
+}
+.productName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: unset;
+  max-width: 130px;
+  font-family: "MuktaBold";
+  // font-weight: 500 !important;
+  // text-align: center;
+}
+
+// .productContent {
+//   border-bottom: 2px solid black;
+// }
+
+@media screen and(max-width:980px) {
+  .greeting,
+  .userGreeting {
+    margin-top: 100px;
+  }
+}
