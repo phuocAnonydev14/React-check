@@ -152,7 +152,6 @@ function SortProduct() {
         `http://localhost:8000/products?${free_shipAPI.api}&${placeAPI.api}&${categoryAPI.api}&${listButtonValAPI}&${etsy_sellerAPI.api}&${valueInputPriceAPI.api}`
       )
       .then((res) => setProduct(res.data));
-    console.log("lan 2");
   };
 
   useEffect(() => {

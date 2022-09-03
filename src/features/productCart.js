@@ -1,6 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = [[], [], [], [], [], [], []];
+const initialState = [[]];
+for (let i = 0; i < 100; i++) {
+  initialState.push([]);
+}
 
 export const userSlice = createSlice({
   name: "product cart",

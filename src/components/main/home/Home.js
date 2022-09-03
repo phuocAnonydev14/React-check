@@ -1,5 +1,4 @@
 import PopularCategories from "../categoryhead/Categories";
-import SkeletonElement from "../../skeletonScreen/SkeletonElement";
 
 import classNames from "classnames/bind";
 import styles from "./Home.module.scss";
@@ -387,7 +386,6 @@ function Home() {
           </div>
         </div>
       </div>
-      {!products && <SkeletonElement />}
     </div>
   );
 }

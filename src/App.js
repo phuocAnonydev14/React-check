@@ -4,7 +4,6 @@ import Footer from "./components/Layouts/footer/Footer";
 import FullHeader from "./components/Layouts/header/FullHeader";
 import Home from "./components/main/home/Home";
 import ProductBox from "./components/main/ProductBox/ProductBox";
-import GlobalState from "./components/GlobalState/GlobalState";
 
 import { createContext, useEffect, useState } from "react";
 import { ToastContainer } from "react-toastify";
@@ -36,20 +35,17 @@ function App() {
         menuResponsiveAppear,
       }}
     >
-      <GlobalState>
-        <FullHeader />
-        <div>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/product/:id" element={<ProductBox />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/sortProduct/:id" element={<SortProduct />} />
-            <Route path="/favorite" element={<FavoriteProduct />} />
-          </Routes>
-        </div>
-        <Footer />
-      </GlobalState>
-
+      <FullHeader />
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/product/:id" element={<ProductBox />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/sortProduct/:id" element={<SortProduct />} />
+          <Route path="/favorite" element={<FavoriteProduct />} />
+        </Routes>
+      </div>
+      <Footer />
       {goLogin && (
         <div className="login">
           <Login />
