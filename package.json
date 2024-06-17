@@ -40,7 +40,7 @@
   },
   "scripts": {
     "start": "react-scripts start && json-server --w db.json --port 8000",
-    "build": "react-scripts build",
+    "build": "react-scripts build && json-server --w db.json --port 8000",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
